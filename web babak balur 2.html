@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpo  rt" content="width=device-width, initial-scale=1.0">
+    <title>Babak balur</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Lora', serif;
+            margin: 0;
+            padding: 0;
+            color: #4a4a4a; /* Warna teks gelap untuk kontras */
+            background: url('d:\WhatsApp Image 2024-10-30 at 11.09.32_a0dac382.jpg') no-repeat center center fixed; /* Gambar latar belakang */
+            background-size: cover; /* Menutupi seluruh area */
+        }
+        .overlay {
+            background-color: rgba(139, 69, 19, 0.71); /* Coklat tua dengan transparansi */
+            padding: 20px;
+            text-align: center;
+            height: 100vh; /* Mengisi tinggi layar */
+        }
+        header {
+            color: white; /* Teks putih untuk kontras */
+            padding: 40px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek kedalaman */
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none; /* Menghilangkan garis bawah */
+            margin: 0 15px; /* Jarak antar tautan */
+            font-weight: bold; /* Teks tebal */
+        }
+        nav a:hover {
+            text-decoration: underline; /* Garis bawah saat hover */
+        }
+        h1 {
+            margin: 0;
+            font-size: 3em; /* Ukuran font lebih besar */
+        }
+        h2 {
+            color: #d2691e; /* Warna oranye untuk subjudul */
+            margin-top: 0;
+            font-size: 2em; /* Ukuran font lebih besar untuk subjudul */
+        }
+        section {
+            margin-top: 30px;
+            background-color: rgba(255, 255, 255, 0.9); /* Latar belakang putih dengan transparansi */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+        }
+        .menu-item, .facility-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eaeaea; /* Garis pemisah antar menu */
+            padding-bottom: 20px;
+        }
+        .menu-item:last-child, .facility-item:last-child {
+            border-bottom: none; /* Menghapus garis bawah dari menu terakhir */
+        }
+        .menu-item img, .facility-item img {
+            width: 150px; /* Ukuran gambar */
+            height: auto; /* Menjaga rasio aspek gambar */
+            border-radius: 10px; /* Sudut melingkar pada gambar */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Bayangan pada gambar */
+            margin-right: 20px; /* Jarak antara gambar dan teks */
+        }
+        footer {
+            text-align: center; 
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #8b4513; /* Coklat tua */
+            color: white; /* Teks putih untuk kontras */
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek kedalaman */
+        }
+        .order-button {
+            background-color: #d2691e; /* Warna oranye */
+            color: white; /* Teks putih */
+            padding: 12px 24px;
+            text-decoration: none; /* Menghilangkan garis bawah */
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+            font-weight: bold;
+            transition: background-color 0.3s; /* Efek transisi */
+        }
+        .order-button:hover {
+            background-color: #c15a30; /* Warna lebih gelap saat hover */
+        }
+        .map {
+            width: 100%; /* Lebar peta 100% dari elemen parent */
+            height: 400px; /* Tinggi peta */
+            border: 0; /* Menghapus border */
+            border-radius: 10px; /* Sudut melingkar pada peta */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Bayangan pada peta */
+        }
+    </style>
+</head>
+<body>
+
+<div class="overlay">
+    <header>
+        <h1>Warung Babak Balur (Kampung Teduh)</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#facilities">Fasilitas</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <p>Temukan berbagai macam makanan lezat di sini!</p>
+    </header>
+</div>
+
+<section id="about">
+    <h2>About</h2>
+    <p>Selamat datang di website babak balur, tempat Anda bisa menemukan berbagai jenis makanan lezat. Kami berkomitmen untuk menyajikan hidangan berkualitas tinggi dengan cita rasa yang tak tertandingi. Mari bergabung dalam perjalanan kuliner kami!</p>
+</section>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item">
+        <a href="d:\Transit\Kampung Teduh\Babak Balur Cafe Resto Food Menu.png" target="_blank">
+        <img src="d:\Transit\Kampung Teduh\Babak Balur Cafe Resto Food Menu.png" alt="Menu Makanan">
+    </a>
+        <div>
+            <h3>Menu Makan</h3>
+            <p>Berbagai hidangan lezat tersedia untuk Anda.</p>
+        </div>
+    </div>
+    <div class="menu-item">
+        <a href="d:\Transit\Kampung Teduh\Menu Kampung Teduh OK 2.png" target="_blank">
+        <img src="d:\Transit\Kampung Teduh\Menu Kampung Teduh OK 2.png" alt="Menu Camilan">
+    </a>
+            <h3>Menu Camilan</h3>
+            <p>Snack yang sempurna untuk menemani waktu santai Anda.</p>
+        </div>
+    </div>
+</section>
+
+<section id="facilities">
+    <h2>Our Facilities</h2>
+    <div class="facility-item">
+        <img src="c:\Users\Probook\Pictures\png-transparent-free-wifi-label-thumbnail.png" alt="Fasilitas 1">
+        <div>
+            <h3>free wifi</h3>
+        </div>
+    </div>
+    <div class="facility-item">
+        <img src="c:\Users\Probook\Pictures\png-transparent-karaoke-box-logo-karaoke-background-microphone-text-audio-equipment-thumbnail.png" alt="Fasilitas 2">
+        <div>
+            <h3>karaoke</h3>
+        </div>
+    </div>
+    <div class="facility-item">
+        <img src="c:\Users\Probook\Pictures\3116089374227112.jpg" alt="Fasilitas 3">
+        <div>
+            <h3>projector</h3>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Jika Anda memiliki pertanyaan atau ingin memesan makanan, silakan hubungi kami melalui WhatsApp:</p>
+    <a href="https://wa.me/6281310740181?text=Halo%20saya%20ingin%20memesan%20makanan!" class="order-button">Order Here!</a>
+    <p style="margin-top: 10px;">
+        Ikuti kami di Instagram: <a href="https://instagram.com/babakbalur.id" style="color: #b8413f;">@babakbalur.id</a>
+    </p>
+    <p style="margin-top: 10px; font-weight: bold;">
+        Anda juga dapat memesan makanan kami di marketplace!
+    </p>
+    <h3>Lokasi Kami</h3>
+    <!-- Ganti lat dan long dengan koordinat lokasi Anda -->
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.413190060852!2d107.1848067!3d-6.340496400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699b0f75cc65eb%3A0x201e25b993a4adcd!2sWarung%20Babak%20Balur%20(Kampung%20Teduh)!5e0!3m2!1sen!2sid!4v1730260850447!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" 
+</section>
+
+<footer>
+    <p>&copy; 2024 Warung Babak Balur (Kampung Teduh). All rights reserved.</p>
+</footer>
+</body>
+</html>
